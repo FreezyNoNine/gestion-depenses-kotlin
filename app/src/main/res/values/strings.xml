@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">GestionDepenses</string>
+    <string name="app_name">Gestion de Dépenses</string>
+    <string name="add_expense">Ajouter une dépense</string>
+    <string name="view_expenses">Voir les dépenses passées</string>
+    <string name="view_statistics">Voir les statistiques</string>
+    <string name="settings">Paramètres</string>
 </resources>
