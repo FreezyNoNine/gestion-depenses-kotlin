@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#F0F0F0">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/gestion_depenses"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#333333"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp" />
+
+    <EditText
+        android:id="@+id/add_depenses"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_entrez_depenses"
+        android:padding="12dp"
+        android:textColor="#333333"
+        android:background="#FFFFFF"
+        android:layout_marginBottom="12dp"
+        android:inputType="numberDecimal"
+        android:autofillHints="autofillHintTransactionAmount" />
+
+    <Button
+        android:id="@+id/confirm_depenses"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/valider"
+        android:textColor="#FFFFFF"
+        android:background="#4CAF50"
+        android:layout_marginBottom="16dp" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/statsTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/stats"
+        android:textSize="16sp"
+        android:textColor="#333333"
+        android:gravity="center"
+        android:padding="8dp"
+        android:background="#E0E0E0" />
+
+    <TextView
+        android:id="@+id/moyenneTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="#333333"
+        android:gravity="center"
+        android:padding="8dp"
+        android:background="#E0E0E0" />
+
+</LinearLayout>
