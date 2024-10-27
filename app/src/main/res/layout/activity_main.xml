@@ -17,6 +17,18 @@
         android:layout_marginBottom="20dp" />
 
     <EditText
+        android:id="@+id/desc_depenses"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_desc_depenses"
+        android:padding="12dp"
+        android:textColor="#333333"
+        android:background="#FFFFFF"
+        android:layout_marginBottom="12dp"
+        android:inputType="text"
+        android:autofillHints="autofillHintTransactionAmount" />
+
+    <EditText
         android:id="@+id/add_depenses"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -27,6 +39,24 @@
         android:layout_marginBottom="12dp"
         android:inputType="numberDecimal"
         android:autofillHints="autofillHintTransactionAmount" />
+
+    <EditText
+        android:id="@+id/date_depenses"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_date_depenses"
+        android:padding="12dp"
+        android:textColor="#333333"
+        android:background="#FFFFFF"
+        android:layout_marginBottom="12dp"
+        android:inputType="date"
+        android:autofillHints="autofillHintTransactionAmount" />
+
+    <Spinner
+        android:id="@+id/categorie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp" />
 
     <Button
         android:id="@+id/confirm_depenses"
@@ -43,25 +73,23 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp" />
 
-    <TextView
-        android:id="@+id/statsTextView"
+    <Button
+        android:id="@+id/stats_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/stats"
-        android:textSize="16sp"
-        android:textColor="#333333"
-        android:gravity="center"
-        android:padding="8dp"
-        android:background="#E0E0E0" />
+        android:text="@string/statsButton"
+        android:textColor="#FFFFFF"
+        android:background="#5c5c5c"
+        android:layout_marginBottom="16dp" />
 
-    <TextView
-        android:id="@+id/moyenneTextView"
+    <Button
+        android:id="@+id/params_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="16sp"
-        android:textColor="#333333"
-        android:gravity="center"
-        android:padding="8dp"
-        android:background="#E0E0E0" />
+        android:layout_marginBottom="16dp"
+        android:background="#5c5c5c"
+        android:text="@string/paramsButton"
+        android:textColor="#FFFFFF" />
+
 
 </LinearLayout>

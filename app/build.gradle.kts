@@ -50,7 +50,10 @@ android {
 }
 
 dependencies {
-
+    implementation(libs.kotlin.stdlib) // Reference the Kotlin stdlib
+    implementation(libs.androidx.compose.ui) // Reference the Compose UI library
+    implementation(libs.androidx.compose.ui.test.manifest) // Reference the UI test manifest
+    implementation(libs.mpandroidchart)
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.androidx.activity.compose)
@@ -68,4 +71,5 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
+
 }

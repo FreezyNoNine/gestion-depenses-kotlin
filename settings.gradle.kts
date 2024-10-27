@@ -9,13 +9,17 @@ pluginManagement {
         }
         mavenCentral()
         gradlePluginPortal()
+        google()
+        maven { url = uri("https://jitpack.io") }
     }
 }
+
+// settings.gradle.kts
 dependencyResolutionManagement {
-    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
-        google()
-        mavenCentral()
+        google() // Required for Android libraries
+        mavenCentral() // Required for Kotlin libraries
+        maven { url = uri("https://jitpack.io") } // If you need JitPack
     }
 }
 

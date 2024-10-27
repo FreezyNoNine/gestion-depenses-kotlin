@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="gestion_depenses">Gestion des Dépenses</string>
-    <string name="hint_entrez_depenses">Entrez vos dépenses</string>
+    <string name="hint_desc_depenses">Description</string>
+    <string name="hint_entrez_depenses">Entrez votre dépense</string>
+    <string name="hint_date_depenses">Date</string>
+    <string name="hint_cat_depenses">Catégorie</string>
     <string name="valider">Valider</string>
-    <string name="stats">Statistiques (moyenne des dépenses)</string>
+    <string name="stats">Moyenne des dépenses</string>
+    <string name="statsButton">Statistiques</string>
+    <string name="paramsButton">Paramètres</string>
 </resources>
